@@ -1,7 +1,7 @@
 # apiRickAndMorty
 Este proyecto muestra una lista de personajes de la serie Rick and Morty mediante el uso de Angular8.1.2 y Node 16.13.2
 
-# Servidor de desarrollo
+# Probarlo localmente
 Clonar el proyecto en carpeta local.
 
 Ejecutar npm install para instalar las dependencias

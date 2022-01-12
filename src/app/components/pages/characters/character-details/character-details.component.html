@@ -1,0 +1,25 @@
+<div class="row justify-content-center mt-3" *ngIf="character$ | async as character">
+    <div class="col-xs-12 col-sm-12 col-md-6 justify-content-center">
+        <div class="card-details">
+            <div class="image-details">
+                <a [routerLink]="['/character-details', character.id]">
+                    <img [src]="character.image" [alt]="character.name" class="card-img-top" />
+                </a>
+            </div>
+            <div class="card-inner">
+                <div class="header">
+                    <a [routerLink]="['/character-details', character.id]">
+                        <h2>Nombre: {{ character.name | slice: 0:15}}</h2>
+                    </a>
+                    <small class="text-muted"> Especie: {{ character.species }}</small> <br>
+                    <small class="text-muted">Origen: {{ character.origin.name }}</small><br>
+                    <small class="text-muted">Fecha incluido en la serie: {{ character.created | date }}</small><br>
+                    <h4 class="text-muted">Episodios en los que aparece: <br> <small class="text-muted" *ngFor="let episode of character.episode"> {{ episode }} <br></small> </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button (click)="onGoBack()" class="btn btn-primary btn-lg mt-3">
+    Back
+  </button>

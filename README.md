@@ -13,16 +13,15 @@ Nota: verificar el estado y la version del angular/cli en la ruta de windows : C
 
 
 
-## Running unit tests
+## Ejecutando pruebas unitarias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecute `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Ejecutar pruebas de extremo a extremo
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Ejecute `ng e2e` para ejecutar las pruebas de extremo a extremo mediante [Transportador](http://www.protractortest.org/).
 
-## Further help
+## Más ayuda
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
+Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte [Angular CLI README] (https://github.com/angular/angular-cli/blob/master/README.md)
 
